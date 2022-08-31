@@ -1,0 +1,46 @@
+@import '../../../styles/vars.scss';
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 340px;
+  background: $background-grey;
+  border-radius: 11px;
+  padding: 10px;
+}
+
+.card-image {
+  width: 180px;
+  height: 210px;
+}
+
+.card-category {
+  font-size: 9px;
+  color: $static-black;
+  font-family: 'Raleway';
+  margin-top: 6px;
+  line-height: 150%;
+}
+
+.card-name {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 15px;
+  color: $static-black;
+  line-height: 150%;
+  }
+
+  .card-price-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-price {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 15px;
+    color: $static-black;
+  }

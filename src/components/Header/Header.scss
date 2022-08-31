@@ -1,0 +1,51 @@
+@import '../../styles/vars.scss';
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: $background-grey;
+}
+
+.container {
+  padding-left: 65px;
+  padding-right: 65px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  gap: 65px;
+  margin-left: 46px;
+  margin-right: 46px;
+}
+
+.nav-link {
+  color: #617080;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  font-weight: 400;
+
+   &:hover {
+     color: #212121;
+   }
+
+   &:active {
+    color: #D65A00;
+  }
+}
+
+.busket {
+  margin-left: 40px;
+  filter: invert(40%) sepia(14%) saturate(510%) hue-rotate(170deg) brightness(102%) contrast(94%);
+
+  &:hover {
+    filter: invert(5%) sepia(26%) saturate(7%) hue-rotate(327deg) brightness(101%) contrast(83%);
+  }
+
+  &:active {
+    filter: invert(32%) sepia(99%) saturate(1934%) hue-rotate(15deg) brightness(96%) contrast(101%);
+ }
+}

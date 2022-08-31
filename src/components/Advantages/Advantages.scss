@@ -1,0 +1,32 @@
+@import '../../styles/vars.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 65px;
+  gap: 45px;
+}
+
+.advantages-block {
+  display: flex;
+  gap: 10px;
+}
+
+.advantages-header {
+  font-size: 18px;
+  line-height: 27px;
+  color: $static-black;
+  font-weight: 600;
+  font-family: 'Raleway';
+}
+.advantages-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #858585;
+  font-family: 'Raleway';
+}
