@@ -14,7 +14,7 @@ import Column52 from '../../images/review/column52.jpg';
 import MobileReview from '../../images/review-mobile.png';
 
 export const Reviews = () => (
-  <div className="review">
+  <div id="review" className="review">
     <h2 className="review-header">Відгуки</h2>
     <div className="review-container">
       <div className="review-column">

@@ -5,7 +5,7 @@ import About2 from '../../images/about2.png';
 import About3 from '../../images/about3.png';
 
 export const About = () => (
-  <div className="about">
+  <div id="about" className="about">
     <h1 className="about-header">Про нас</h1>
     <div className="about-container">
       <div className="about-block">
@@ -39,10 +39,7 @@ export const About = () => (
       <div className="about-block">
         <img src={About2} alt="" className="about-image" />
         <div>
-          <p className="about-name">
-            Привіт, я Яра— засновниця <br />
-            MUSCAT.home.
-          </p>
+          <p className="about-name">Усі товари в наявності у нас на складі</p>
           <p className="about-text">
             Концентрація красивих та практичних речей у цьому місці просто
             зашкалює.

@@ -8,7 +8,7 @@ import DelNum2 from '../../images/del-num2.svg';
 import DelNum3 from '../../images/del-num3.svg';
 
 export const Delivery = () => (
-  <div className="delivery">
+  <div id="delivery" className="delivery">
     <h2 className="delivery-header">Доставка і оплата</h2>
     <div className="delivery-container">
       <div className="delivery-block">

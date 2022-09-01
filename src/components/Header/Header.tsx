@@ -13,16 +13,16 @@ export const Header = () => {
           <a href="#" className="nav-link">
             Каталог
           </a>
-          <a href="#" className="nav-link">
+          <a href="#new" className="nav-link">
             Новинки
           </a>
-          <a href="#" className="nav-link">
+          <a href="#delivery" className="nav-link">
             Доставка і оплата
           </a>
-          <a href="#" className="nav-link">
+          <a href="#review" className="nav-link">
             Відгуки
           </a>
-          <a href="#" className="nav-link">
+          <a href="#about" className="nav-link">
             Про нас
           </a>
         </nav>
