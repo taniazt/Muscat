@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Muscat/static/css/main.82acde31.css",
-    "main.js": "/Muscat/static/js/main.757de617.js",
+    "main.css": "/Muscat/static/css/main.2bc19f98.css",
+    "main.js": "/Muscat/static/js/main.7da12b57.js",
     "static/js/787.6244a4d0.chunk.js": "/Muscat/static/js/787.6244a4d0.chunk.js",
     "static/media/header-background.jpg": "/Muscat/static/media/header-background.e1c2d5ef4c929a754aa2.jpg",
     "static/media/insta-mobile.png": "/Muscat/static/media/insta-mobile.05ce15eacbbe11461817.png",
@@ -42,12 +42,12 @@
     "static/media/slider-prev-button.svg": "/Muscat/static/media/slider-prev-button.8872a2a59efd2283aafb.svg",
     "static/media/slider-next-button.svg": "/Muscat/static/media/slider-next-button.b6b5b5caef82ae470459.svg",
     "static/media/del-num1.svg": "/Muscat/static/media/del-num1.901543338b107c0e9b7853f3005aa830.svg",
-    "main.82acde31.css.map": "/Muscat/static/css/main.82acde31.css.map",
-    "main.757de617.js.map": "/Muscat/static/js/main.757de617.js.map",
+    "main.2bc19f98.css.map": "/Muscat/static/css/main.2bc19f98.css.map",
+    "main.7da12b57.js.map": "/Muscat/static/js/main.7da12b57.js.map",
     "787.6244a4d0.chunk.js.map": "/Muscat/static/js/787.6244a4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82acde31.css",
-    "static/js/main.757de617.js"
+    "static/css/main.2bc19f98.css",
+    "static/js/main.7da12b57.js"
   ]
 }
