@@ -8,13 +8,13 @@
 .advantages-container {
   display: flex;
   justify-content: space-between;
-  padding: 0px 65px;
   gap: 45px;
 }
 
 .advantages-block {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .advantages-header {
@@ -29,4 +29,9 @@
   line-height: 21px;
   color: #858585;
   font-family: 'Raleway';
+}
+
+.advantages-image {
+  height: 40px;
+  width: 40px;
 }

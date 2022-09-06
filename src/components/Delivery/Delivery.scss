@@ -6,13 +6,13 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  scroll-margin-top: 90px;
 }
 
 .delivery-header {
   @include header;
   display: flex;
   justify-content: center;
-  margin-top: 240px;
   margin-bottom: 30px;
 }
 
@@ -29,6 +29,15 @@
   line-height: 150%;
   text-align: center;
   margin-top: 40px;
+}
+
+#delivery-name{
+  white-space: nowrap;
+  margin-left: -24px;
+}
+
+#delivery-text{
+  white-space: nowrap;
 }
 
 .delivery-block{

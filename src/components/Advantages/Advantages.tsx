@@ -9,7 +9,7 @@ export const Advantages = () => (
   <div className="container">
     <div className="advantages-container">
       <div className="advantages-block">
-        <img src={QualityIcon} alt="quality" />
+        <img src={QualityIcon} alt="quality" className="advantages-image" />
         <div>
           <p className="advantages-header">Висока якість</p>
           <p className="advantages-text">
@@ -18,14 +18,14 @@ export const Advantages = () => (
         </div>
       </div>
       <div className="advantages-block">
-        <img src={DeliveryIcon} alt="delivery" />
+        <img src={DeliveryIcon} alt="delivery" className="advantages-image" />
         <div>
           <p className="advantages-header">Швидка доставка</p>
           <p className="advantages-text">Нова Пошта, 2 роб.дн.</p>
         </div>
       </div>
       <div className="advantages-block">
-        <img src={SupportIcon} alt="support" />
+        <img src={SupportIcon} alt="support" className="advantages-image" />
         <div>
           <p className="advantages-header">Підтримка 24/7</p>
           <p className="advantages-text">
@@ -34,7 +34,11 @@ export const Advantages = () => (
         </div>
       </div>
       <div className="advantages-block">
-        <img src={AvailabilityIcon} alt="availability" />
+        <img
+          src={AvailabilityIcon}
+          alt="availability"
+          className="advantages-image"
+        />
         <div>
           <p className="advantages-header">Товари в наявності</p>
           <p className="advantages-text">На складі у м.Львів</p>

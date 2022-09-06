@@ -8,7 +8,9 @@ export const Header = () => {
   return (
     <div className="header-container">
       <header className="container">
-        <img src={Logo} alt="muscat logo" />
+        <a href="#logo">
+          <img src={Logo} alt="muscat logo" />
+        </a>
         <nav className="nav">
           <a href="#" className="nav-link">
             Каталог

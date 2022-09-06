@@ -19,7 +19,7 @@ export const Footer = () => (
     <div>
       <div className="footer-address">
         <p className="footer-name">Адреса</p>
-        <p className="footer-text">Україна, м. Львів, вул. Хімічна</p>
+        <p className="footer-text">Україна, м. Львів</p>
       </div>
       <div>
         <p className="footer-name">Режим роботи</p>

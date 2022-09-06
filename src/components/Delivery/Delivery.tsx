@@ -8,7 +8,7 @@ import DelNum2 from '../../images/del-num2.svg';
 import DelNum3 from '../../images/del-num3.svg';
 
 export const Delivery = () => (
-  <div id="delivery" className="delivery">
+  <div className="delivery" id="delivery">
     <h2 className="delivery-header">Доставка і оплата</h2>
     <div className="delivery-container">
       <div className="delivery-block">
@@ -23,7 +23,9 @@ export const Delivery = () => (
       <div className="delivery-block">
         <img src={Delivery2} alt="Відправимо" className="delivery-image" />
         <img src={DelNum2} alt="" className="delivery-number" />
-        <p className="delivery-name">Ми усе упакуємо і відправимо</p>
+        <p className="delivery-name" id="delivery-name">
+          Ми усе упакуємо і відправимо
+        </p>
         <p className="delivery-text">
           службою доставки “Нова Пошта” протягом 2 робочих днів. Посилка
           застраховується на повну суму твого замовлення
@@ -35,7 +37,8 @@ export const Delivery = () => (
         <p className="delivery-name">Отримуй замовлення</p>
         <p className="delivery-text">
           та перевіряй цілісність товарів разом працівником пошти. Насолоджуйся
-          красивими та практичними речима для твоєї оселі
+          красивими та{' '}
+          <span id="delivery-text"> практичними речима для твоєї оселі</span>
         </p>
       </div>
     </div>

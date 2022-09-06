@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 210px;
+  scroll-margin-top: 90px;
 }
 
 .about-block {
@@ -22,7 +23,6 @@
   @include header;
   display: flex;
   justify-content: center;
-  margin-top: 71px;
   margin-bottom: 21px;
 }
 

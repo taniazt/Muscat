@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative
+  position: relative;
+  scroll-margin-top: 90px;
 }
 
 .review-header {
@@ -22,6 +23,7 @@
   background-color: $background-grey;
   padding: 30px 25px 450px;
   border-radius: 11px;
+  margin-bottom: 70px;
 }
 
 .review-column {

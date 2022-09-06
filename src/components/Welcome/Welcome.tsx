@@ -3,7 +3,7 @@ import './Welcome.scss';
 
 export const Welcome = () => {
   return (
-    <div className="welcome-background">
+    <div id="logo" className="welcome-background">
       <Offer />
     </div>
   );
