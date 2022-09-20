@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Muscat/static/css/main.2bdb8361.css",
-    "main.js": "/Muscat/static/js/main.7e7b126d.js",
+    "main.css": "/Muscat/static/css/main.d1f4f6ce.css",
+    "main.js": "/Muscat/static/js/main.f8231248.js",
     "static/js/787.6244a4d0.chunk.js": "/Muscat/static/js/787.6244a4d0.chunk.js",
     "static/media/header-background.jpg": "/Muscat/static/media/header-background.e1c2d5ef4c929a754aa2.jpg",
     "static/media/insta-mobile.png": "/Muscat/static/media/insta-mobile.05ce15eacbbe11461817.png",
@@ -38,16 +38,17 @@
     "index.html": "/Muscat/index.html",
     "static/media/del-num2.svg": "/Muscat/static/media/del-num2.13a0ef85c407b9bba94c4fb5ed80a123.svg",
     "static/media/del-num3.svg": "/Muscat/static/media/del-num3.3104f1d45107a138d038bd40986c92b7.svg",
+    "static/media/up-arrow.svg": "/Muscat/static/media/up-arrow.02d6f4c0f492030738f61d52e7957b2f.svg",
     "static/media/icon-search.svg": "/Muscat/static/media/icon-search.6b63370fb21b075a0b76022f9f883a7b.svg",
     "static/media/slider-prev-button.svg": "/Muscat/static/media/slider-prev-button.8872a2a59efd2283aafb.svg",
     "static/media/slider-next-button.svg": "/Muscat/static/media/slider-next-button.b6b5b5caef82ae470459.svg",
     "static/media/del-num1.svg": "/Muscat/static/media/del-num1.901543338b107c0e9b7853f3005aa830.svg",
-    "main.2bdb8361.css.map": "/Muscat/static/css/main.2bdb8361.css.map",
-    "main.7e7b126d.js.map": "/Muscat/static/js/main.7e7b126d.js.map",
+    "main.d1f4f6ce.css.map": "/Muscat/static/css/main.d1f4f6ce.css.map",
+    "main.f8231248.js.map": "/Muscat/static/js/main.f8231248.js.map",
     "787.6244a4d0.chunk.js.map": "/Muscat/static/js/787.6244a4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bdb8361.css",
-    "static/js/main.7e7b126d.js"
+    "static/css/main.d1f4f6ce.css",
+    "static/js/main.f8231248.js"
   ]
 }
