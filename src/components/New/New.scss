@@ -24,3 +24,14 @@
   margin-right: 65px;
   scroll-margin-top: 90px;
 }
+
+.new-image {
+  position: fixed;
+  z-index: 3;
+  top: 85%;
+  left: 5%;
+}
+
+.new-image-hidden {
+  visibility: hidden;
+}
