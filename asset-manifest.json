@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Muscat/static/css/main.d1f4f6ce.css",
-    "main.js": "/Muscat/static/js/main.f8231248.js",
+    "main.css": "/Muscat/static/css/main.7b7785ce.css",
+    "main.js": "/Muscat/static/js/main.19a1f811.js",
     "static/js/787.6244a4d0.chunk.js": "/Muscat/static/js/787.6244a4d0.chunk.js",
     "static/media/header-background.jpg": "/Muscat/static/media/header-background.e1c2d5ef4c929a754aa2.jpg",
+    "static/media/header-background-mobile.jpg": "/Muscat/static/media/header-background-mobile.c7520cb272be59d4b9de.jpg",
     "static/media/insta-mobile.png": "/Muscat/static/media/insta-mobile.05ce15eacbbe11461817.png",
     "static/media/about2.png": "/Muscat/static/media/about2.2ba45034e21208fb15d3.png",
     "static/media/delivery2.jpg": "/Muscat/static/media/delivery2.b6324260d1964e255fb6.jpg",
@@ -36,19 +37,22 @@
     "static/media/card-basket.svg": "/Muscat/static/media/card-basket.4a45eeacf851524f1ddfaaff864fc962.svg",
     "static/media/busket-icon.svg": "/Muscat/static/media/busket-icon.4f487854bf090629292e61582cdcb5e0.svg",
     "index.html": "/Muscat/index.html",
+    "static/media/del-num2sm.svg": "/Muscat/static/media/del-num2sm.4c02799fd15c6c688509980ea225b575.svg",
+    "static/media/del-num3sm.svg": "/Muscat/static/media/del-num3sm.90a6585a656db5a5aa6ce24dccad1be4.svg",
     "static/media/del-num2.svg": "/Muscat/static/media/del-num2.13a0ef85c407b9bba94c4fb5ed80a123.svg",
     "static/media/del-num3.svg": "/Muscat/static/media/del-num3.3104f1d45107a138d038bd40986c92b7.svg",
     "static/media/up-arrow.svg": "/Muscat/static/media/up-arrow.02d6f4c0f492030738f61d52e7957b2f.svg",
     "static/media/icon-search.svg": "/Muscat/static/media/icon-search.6b63370fb21b075a0b76022f9f883a7b.svg",
     "static/media/slider-prev-button.svg": "/Muscat/static/media/slider-prev-button.8872a2a59efd2283aafb.svg",
+    "static/media/del-num1sm.svg": "/Muscat/static/media/del-num1sm.e4a20462d1573273b6ec009faf082e46.svg",
     "static/media/slider-next-button.svg": "/Muscat/static/media/slider-next-button.b6b5b5caef82ae470459.svg",
     "static/media/del-num1.svg": "/Muscat/static/media/del-num1.901543338b107c0e9b7853f3005aa830.svg",
-    "main.d1f4f6ce.css.map": "/Muscat/static/css/main.d1f4f6ce.css.map",
-    "main.f8231248.js.map": "/Muscat/static/js/main.f8231248.js.map",
+    "main.7b7785ce.css.map": "/Muscat/static/css/main.7b7785ce.css.map",
+    "main.19a1f811.js.map": "/Muscat/static/js/main.19a1f811.js.map",
     "787.6244a4d0.chunk.js.map": "/Muscat/static/js/787.6244a4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f4f6ce.css",
-    "static/js/main.f8231248.js"
+    "static/css/main.7b7785ce.css",
+    "static/js/main.19a1f811.js"
   ]
 }
