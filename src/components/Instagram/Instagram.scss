@@ -11,6 +11,28 @@
   text-align: right;
   margin-bottom: 240px;
   position: relative;
+
+  @media screen and (max-width: 990px) {
+    padding-right: 0;
+    padding-left: 100px;
+    justify-content: left;
+  }
+
+  @media screen and (max-width: 810px) {
+    padding-left: 40px;
+  }
+
+  @media screen and (max-width: 740px) {
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(98, 120, 94, .9);
+    height: 120px;
+    margin-top: 195px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .text-container {
@@ -24,6 +46,15 @@
   line-height: 150%;
   color: white;
   margin-bottom: 5px;
+
+  @media screen and (max-width: 840px) {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
 }
 
 .insta-text {
@@ -33,10 +64,30 @@
   line-height: 150%;
   color: white;
   margin-bottom: 12px;
+
+  @media screen and (max-width: 840px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 840px) {
+    font-size: 11px;
+    margin-bottom: 3px;
+  }
 }
 
 .insta-image {
   position: absolute;
   top: -115%;
   left: 410px;
+
+  @media screen and (max-width: 740px) {
+    left: 0;
+    right: 0;
+    top: -180%;
+    margin-left: auto; 
+    margin-right: auto;
+    z-index: -1;
+    height: 475px;
+    width: 250px;
+  }
 }

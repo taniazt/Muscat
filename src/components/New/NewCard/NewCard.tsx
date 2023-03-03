@@ -1,5 +1,4 @@
 import './NewCard.scss';
-import Slide from '../../../images/slides/slide1.jpg';
 import CardBusket from '../../../images/card-basket.svg';
 
 export const NewCard = ({
@@ -21,7 +20,7 @@ export const NewCard = ({
     </div>
     <div className="card-price-block">
       <p className="card-price">{price}</p>
-      <img src={CardBusket} alt="" />
+      <img src={CardBusket} alt="" className="card-busket" />
     </div>
   </div>
 );

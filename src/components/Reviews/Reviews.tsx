@@ -1,4 +1,4 @@
-import { SecondaryButton } from '../Atoms/SecondaryButton';
+import { Button } from '../Atoms/Button';
 import './Reviews.scss';
 
 import Column11 from '../../images/review/column11.jpg';
@@ -29,11 +29,11 @@ export const Reviews = () => (
         <img src={Column31} alt="" className="review-image" />
         <img src={Column32} alt="" className="review-image" />
       </div>
-      <div className="review-column">
+      <div className="review-column" id="column4">
         <img src={Column41} alt="" className="review-image" />
         <img src={Column42} alt="" className="review-image" />
       </div>
-      <div className="review-column">
+      <div className="review-column" id="column5">
         <img src={Column51} alt="" className="review-image" />
         <img src={Column52} alt="" className="review-image" />
       </div>
@@ -44,7 +44,7 @@ export const Reviews = () => (
             Більше 1000 відгуків задоволених клієнтів <br />
             зібрано у профілі
           </p>
-          <SecondaryButton text="Дивитись більше" />
+          <Button variant="secondary" text="Дивитись більше" />
           <img
             src={MobileReview}
             alt="Mobile Instagram"
@@ -52,6 +52,13 @@ export const Reviews = () => (
           />
         </div>
       </div>
+    </div>
+    <div className="review-mobile-small-text-container">
+      <p className="review-mobile-small-name">@muscat.feedbacks</p>
+      <p className="review-mobile-small-text">
+        Більше 1000 відгуків задоволених клієнтів зібрано у профілі
+      </p>
+      <Button variant="secondary" text="Дивитись більше" />
     </div>
   </div>
 );

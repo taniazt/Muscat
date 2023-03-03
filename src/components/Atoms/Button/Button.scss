@@ -1,19 +1,60 @@
+@import '../../../styles/vars.scss';
+
 .button {
+  cursor: pointer;
+  border: none;
+  color: #FFFFFF;
+  transition: background-color 0.3s;
+
+  &:active {
+    background-color: #D65A00;
+  }
+}
+
+.button-primary {
   width: 280px;
   height: 80px;
   border-radius: 12px;
   background-color: #62785E;
-  cursor: pointer;
-  border: none;
   font-size: 20px;
   color: #FFFFFF;
-  transition: background-color 0.3s;
+
+  @media screen and (max-width: 840px) {
+    width: 260px;
+    height: 70px;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+  }
 
   &:hover {
     background-color: #4A5E47;
   }
+}
 
-  &:active {
-    background-color: #D65A00;
+.button-secondary {
+  font-family: 'Raleway';
+  width: 170px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: $static-black;
+  font-size: 16px;
+  color: #FFFFFF;
+
+  @media screen and (max-width: 840px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 9px;
+    width: 120px;
+    height: 30px;
+  }
+
+  &:hover {
+    background-color: #212121;
   }
 }

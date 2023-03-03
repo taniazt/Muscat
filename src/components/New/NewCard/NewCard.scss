@@ -9,11 +9,31 @@
   background: $background-grey;
   border-radius: 11px;
   padding: 10px;
+
+    @media screen and (max-width: 1150px) {
+      width: 160px;
+      height: 260px;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 200px;
+      height: 340px;
+    }
 }
 
 .card-image {
   width: 180px;
   height: 210px;
+
+    @media screen and (max-width: 1150px) {
+      width: 140px;
+      height: 160px;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 180px;
+      height: 210px;
+    }
 }
 
 .card-category {
@@ -22,6 +42,14 @@
   font-family: 'Raleway';
   margin-top: 6px;
   line-height: 150%;
+
+    @media screen and (max-width: 1150px) {
+      font-size: 7px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 9px;
+    }
 }
 
 .card-name {
@@ -30,6 +58,14 @@
   font-size: 15px;
   color: $static-black;
   line-height: 150%;
+
+    @media screen and (max-width: 1150px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 15px;
+    }
   }
 
   .card-price-block {
@@ -43,4 +79,33 @@
     font-weight: 600;
     font-size: 15px;
     color: $static-black;
+
+      @media screen and (max-width: 1150px) {
+        font-size: 12px;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 15px;
+      }
+  }
+
+  .card-busket {
+    width: 34px;
+    height: 34px;
+
+    @media screen and (max-width: 1150px) {
+      .card-busket {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 220px;
+        left: 120px;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 34px;
+      height: 34px;
+    }
+
   }

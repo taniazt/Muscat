@@ -1,4 +1,4 @@
-import { SecondaryButton } from '../Atoms/SecondaryButton';
+import { Button } from '../Atoms/Button';
 import './Instagram.scss';
 import Mobile from '../../images/insta-mobile.png';
 
@@ -11,7 +11,7 @@ export const Instagram = () => (
         <br />
         бекстейджів та нашого повсякденного життя.
       </p>
-      <SecondaryButton text="Стежити" />
+      <Button variant="secondary" text="Стежити" />
       <img src={Mobile} alt="Mobile Instagram" className="insta-image" />
     </div>
   </div>

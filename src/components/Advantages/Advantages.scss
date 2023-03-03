@@ -1,14 +1,30 @@
 @import '../../styles/vars.scss';
 
-.container {
+.adv-container {
   display: flex;
   justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 40px;
+  
+  @media screen and (max-width: 840px) {
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 .advantages-container {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+
+  @media screen and (max-width: 840px) {
+    gap: 20px;
+  }
 }
 
 .advantages-block {
@@ -17,21 +33,41 @@
   align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  #adv-available {
+    margin-left: 15px;
+  }
+}
+
 .advantages-header {
   font-size: 18px;
-  line-height: 27px;
+  line-height: 150%;
   color: $static-black;
   font-weight: 600;
   font-family: 'Raleway';
+
+  @media screen and (max-width: 840px) {
+    font-size: 12px;
+  }
 }
+
 .advantages-text {
   font-size: 14px;
-  line-height: 21px;
+  line-height: 150%;
   color: #858585;
   font-family: 'Raleway';
+
+  @media screen and (max-width: 840px) {
+    font-size: 8px;
+  }
 }
 
 .advantages-image {
   height: 40px;
   width: 40px;
+
+  @media screen and (max-width: 840px) {
+    height: 30px;
+    width: 30px;
+  }
 }

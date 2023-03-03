@@ -6,10 +6,10 @@ export const Offer = () => {
     <>
       <div className="offer-background">
         <div className="offer-header">
-          MUSCAT.<span className="offer-header__home">home</span>
+          MUSCAT<span className="offer-header__home">.home</span>
         </div>
         <div className="offer-text">Подарунки для твоєї домівки</div>
-        <Button text="Каталог" />
+        <Button variant="primary" text="Каталог" />
       </div>
     </>
   );

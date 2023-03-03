@@ -15,21 +15,30 @@ export const Slider = () => (
   <div className="slider-wrapper">
     <Swiper
       slidesPerView={5}
-      spaceBetween={20}
+      spaceBetween={0}
       slidesPerGroup={1}
-      // loop={true}
       navigation={true}
       modules={[Navigation]}
       className="swiper-container"
       breakpoints={{
-        1300: {
-          // width: 768,
+        1350: {
           slidesPerView: 5,
         },
-        840: {
-          // width: 768,
+
+        960: {
           slidesPerView: 4,
-          spaceBetween: 10,
+        },
+
+        630: {
+          slidesPerView: 3,
+        },
+
+        450: {
+          slidesPerView: 2,
+        },
+
+        340: {
+          slidesPerView: 1,
         },
       }}
     >

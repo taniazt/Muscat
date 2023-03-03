@@ -6,7 +6,7 @@ import QualityIcon from '../../images/quality-icon.svg';
 import './Advantages.scss';
 
 export const Advantages = () => (
-  <div className="container">
+  <div className="adv-container">
     <div className="advantages-container">
       <div className="advantages-block">
         <img src={QualityIcon} alt="quality" className="advantages-image" />
@@ -24,6 +24,8 @@ export const Advantages = () => (
           <p className="advantages-text">Нова Пошта, 2 роб.дн.</p>
         </div>
       </div>
+    </div>
+    <div className="advantages-container">
       <div className="advantages-block">
         <img src={SupportIcon} alt="support" className="advantages-image" />
         <div>
@@ -33,7 +35,7 @@ export const Advantages = () => (
           </p>
         </div>
       </div>
-      <div className="advantages-block">
+      <div className="advantages-block" id="adv-available">
         <img
           src={AvailabilityIcon}
           alt="availability"

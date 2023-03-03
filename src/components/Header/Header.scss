@@ -20,9 +20,10 @@
 
 .nav {
   display: flex;
-  gap: 65px;
+  justify-content: space-between;
   margin-left: 46px;
   margin-right: 46px;
+  min-width: 490px;
 }
 
 .nav-link {
@@ -31,6 +32,7 @@
   line-height: 21px;
   text-decoration: none;
   font-weight: 400;
+  display: block;
 
    &:hover {
      color: #212121;

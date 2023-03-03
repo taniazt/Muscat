@@ -25,6 +25,7 @@ export const New = () => {
   return (
     <div id="new" className="margin-container">
       <div className="relative-container">
+        <h2 className="new-header">Новинки</h2>
         <div className="new-container">
           <a href="#logo">
             <img
@@ -33,7 +34,6 @@ export const New = () => {
               className={visible ? 'new-image' : 'new-image-hidden'}
             />
           </a>
-          <h2 className="new-header">Новинки</h2>
           <Slider />
         </div>
       </div>
